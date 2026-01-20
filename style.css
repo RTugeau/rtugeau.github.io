@@ -216,8 +216,6 @@ h1 {
 
 body {
     background-color: rgb(32, 32, 32);
-    color: white;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .button-60 {
@@ -318,28 +316,4 @@ body {
   font-size: inherit;
   color: inherit;
   cursor: pointer;
-}
-
-body.light_mode {
-    background-color: white;
-    color: black;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-  color: inherit;
-}
-
-body.light_mode .button-59, 
-body.light_mode .button-60 {
-  background-color: #f2f2f2;
-  color: black;
-  border-color: #aaa;
-}
-
-body.light_mode #container2, 
-body.light_mode #projects_container, 
-body.light_mode #about_container, 
-body.light_mode #resume_container, 
-body.light_mode #contact_container {
-  color: black;
 }
